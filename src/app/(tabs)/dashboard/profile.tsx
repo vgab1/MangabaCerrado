@@ -5,16 +5,14 @@ export default function Profile() {
     <ScrollView className="flex-1 bg-gray-100 p-4">
       <View className="items-center mt-4">
         <Image
-          source={require("../../../../assets/profile1.jpg")}
+          source={require("../../../../assets/ceddag.png")}
           className="w-32 h-32 rounded-full border-2 border-emerald-500"
           resizeMode="cover"
         />
         <Text className="text-2xl font-bold mt-4 text-emerald-900">
-          Carlos Lima
+          @CEDDAG
         </Text>
-        <Text className="text-gray-600 mt-1">
-          Apaixonado pela Natureza | Fotografo
-        </Text>
+        <Text className="text-gray-600 mt-1">CED Dona América Guimarães</Text>
       </View>
       <View className="flex-row justify-around mt-6">
         <View className="items-center">
@@ -38,8 +36,9 @@ export default function Profile() {
       <View className="mt-8 px-4">
         <Text className="text-lg font-bold text-emerald-900">Sobre</Text>
         <Text className="text-gray-600 mt-2">
-          Passionate about nature and conservation. Love capturing moments in
-          the wild and sharing them with others.
+          Centro Educacional Dona América Guimarães, que é buscar a formação de
+          cidadãos capazes de analisar, compreender e intervir na realidade,
+          visando o bem-estar do homem, no plano pessoal e coletivo.
         </Text>
       </View>
       <View className="mt-8 px-4">
